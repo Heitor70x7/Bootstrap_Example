@@ -1,0 +1,581 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyNgM1rXcvrqf9zsqgAq95vV",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Heitor70x7/Bootstrap_Example/blob/main/Python%20codes\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KLP30y4riGJu",
+        "outputId": "7a989be4-18a1-4425-a96e-ad624306b4ab"
+      },
+      "source": [
+        "print(\"Olá, Mundo!\")"
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Olá, Mundo!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "JgMuGEozlWMm",
+        "outputId": "89adbe47-634a-4b11-ea35-902bac76d854"
+      },
+      "source": [
+        "print(2+3)\n"
+      ],
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "iz5Sc7SFlZ5o",
+        "outputId": "ebc480b2-867d-4acc-b479-140bdd71b1ed"
+      },
+      "source": [
+        "print('2+3')"
+      ],
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2+3\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FLrRpz2-lswC",
+        "outputId": "f7ab226b-e06c-4d01-d2d8-72e51a1d22fb"
+      },
+      "source": [
+        "print('2' + '3')"
+      ],
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "23\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6QsExJAAmKgE",
+        "outputId": "6937a3d2-f227-45aa-a3e3-d6be0f033480"
+      },
+      "source": [
+        "print('o resultado de 2+3 é:' ,2+3)"
+      ],
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "o resultado de 2+3 é: 5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "l1aIeIMJoNrx",
+        "outputId": "40d3d46b-1120-44b3-e704-ac609f7ec3b1"
+      },
+      "source": [
+        "print((5+7)/4)"
+      ],
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "3.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ke9Dzk4PoT2c",
+        "outputId": "26b2ee89-6995-408a-cbfa-7e276f0c160a"
+      },
+      "source": [
+        "print((5+7/4))"
+      ],
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "6.75\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sF5-P7V1obst",
+        "outputId": "1d98bad2-46b3-4d7f-b473-325355b419f0"
+      },
+      "source": [
+        "print((7/4)+5)"
+      ],
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "6.75\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CS7E4ECpsdGw",
+        "outputId": "40f56183-010c-4b30-c633-b6881bb12cd7"
+      },
+      "source": [
+        "nota = 8.5\n",
+        "disciplina = 'Matemática Básica'\n",
+        "\n",
+        "print(nota)\n",
+        "print(disciplina)"
+      ],
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "8.5\n",
+            "Matemática Básica\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "6co5dkdJstQZ"
+      },
+      "source": [
+        "Dado \"8.5\" adicionado a variável \"nota\", que é o nome dado pra um\n",
+        "conjunto de endereços na memória, que vão conter dados \n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BLuiz6bytU8h",
+        "outputId": "3c2d213d-eceb-4b96-d55b-15533a98d4f8"
+      },
+      "source": [
+        "print('Disciplina:' , disciplina , 'Nota:' , nota)"
+      ],
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Disciplina: Matemática Básica Nota: 8.5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BTl93FF-00HC",
+        "outputId": "53298090-4489-433e-d281-110a25847981"
+      },
+      "source": [
+        "a = 1\n",
+        "b = 5\n",
+        "resposta = a == b \n",
+        "print(resposta)"
+      ],
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "35Y7fezX8MXO",
+        "outputId": "c13eb9de-79df-4ff4-feca-a43692bf49fc"
+      },
+      "source": [
+        "frase = 'olá, mundo'\n",
+        "print(frase)\n",
+        "print(frase[0:3])"
+      ],
+      "execution_count": 46,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "olá, mundo\n",
+            "olá\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "W6Uiml4aEmqe"
+      },
+      "source": [
+        "se usarmos apenas 1 numero sem o ':' aparecerá apenas o respectivo caracter"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KPXU5TBt9bAy",
+        "outputId": "093a71c9-404e-4319-8469-5d92fc350a7a"
+      },
+      "source": [
+        "s1= 'Matemática Básica'\n",
+        "s2= s1 + ' e binários'\n",
+        "print(s2)"
+      ],
+      "execution_count": 32,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Matemática Básica e binários\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Ki3XB7Ka9-e2",
+        "outputId": "74a98bf7-17dc-4870-f110-f78c2af382ce"
+      },
+      "source": [
+        "s1= 'A' + '_' * 10 + 'B'\n",
+        "print(s1)"
+      ],
+      "execution_count": 34,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "A__________B\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0_lsJFTV-h_4",
+        "outputId": "5d2b2e2b-0232-492c-88cc-ac8258ec2d88"
+      },
+      "source": [
+        "nota= 8.5\n",
+        "s1= 'você tirou %.1f em Matemática Básica' % nota\n",
+        "print(s1)"
+      ],
+      "execution_count": 42,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "você tirou 8.5 em Matemática Básica\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "N1lcnNP7DGsY",
+        "outputId": "bdc51207-6552-43de-8828-d99234d69bbc"
+      },
+      "source": [
+        "nota= 8.5\n",
+        "disciplina= 'Matematica Basica'\n",
+        "\n",
+        "s1='voce tirou %.1f em %s' % (nota,disciplina)\n",
+        "print(s1)"
+      ],
+      "execution_count": 44,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "voce tirou 8.5 em Matematica Basica\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "0HEQp3x__JKR"
+      },
+      "source": [
+        "%f vai adicionar a string o valor da varivael nota o \".1\" vai ser o quanto de casas decimais ele está pertmitido apresentar\n",
+        "\n",
+        "%s é a string de caracteres dentro da frase declaradas depois do %\n",
+        "\n",
+        "é possivel usar {} {} .format(nota,disciplina) ao inves de porcentagem\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "v_5GAP8CE9Q8",
+        "outputId": "8c38c8aa-56aa-40d9-aef3-66416e8eb4e0"
+      },
+      "source": [
+        "s1= 'Matématirca Básica'\n",
+        "tamanho= len(s1)\n",
+        "\n",
+        "print(tamanho)"
+      ],
+      "execution_count": 47,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "18\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FksQf7HEFrKT",
+        "outputId": "0500f619-e4c9-4a11-be4b-4af0cff22679"
+      },
+      "source": [
+        "idade= input('Qual sua idade?')\n",
+        "print(idade)"
+      ],
+      "execution_count": 49,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Qual sua idade?22\n",
+            "22\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "V9XA_SxFGBer",
+        "outputId": "2c1274be-5ea1-4b76-f2c8-40b83b2bf3d6"
+      },
+      "source": [
+        "nome= input('qual seu nome?')\n",
+        "print('seu nome é {} ' .format(nome))"
+      ],
+      "execution_count": 50,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "qual seu nome?Heitor\n",
+            "seu nome é Heitor \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8jh6kniwGfvC",
+        "outputId": "83111c05-7dc9-46ca-d962-43ae3b4fbd73"
+      },
+      "source": [
+        "nota= float(input('Qual nota você recebeu na disciplina?'))\n",
+        "print('voce tirou: {} ' .format(nota))"
+      ],
+      "execution_count": 53,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Qual nota você recebeu na disciplina?8\n",
+            "voce tirou: 8.0 \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Pf3oIRPmHH8N",
+        "outputId": "a04cdd5e-8f42-45ab-b757-b626cf01f2e2"
+      },
+      "source": [
+        "x= int(input('Insira seu seu valor'))\n",
+        "y= int(input('Insira um segundo valor'))\n",
+        "res = 'o primeiro valor foi {} já o segundo {} a soma dos dois é {}' .format(x,y,x + y)\n",
+        "print(res)"
+      ],
+      "execution_count": 58,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Insira seu seu valor10\n",
+            "Insira um segundo valor10\n",
+            "o primeiro valor foi 10 já o segundo 10 a soma dos dois é 20\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
